@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 打包产物（skill 本身以源码形式分发，zip 不应入库）
+*.zip
+
+# 操作系统 / 编辑器
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# WorkBuddy 运行时
+.wbapp_*
